@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-// import Welcome from './Welcome';
 
 
 // function tick() {
@@ -23,7 +21,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 
 
-// ReactDOM.render(
-//   <Welcome name="zyang"/>,
-//   document.getElementById('root')
-// )
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+)
