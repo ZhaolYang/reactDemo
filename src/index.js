@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import Welcome from './Welcome';
+// import Welcome from './Welcome';
 
 
 // function tick() {
@@ -23,7 +23,7 @@ import Welcome from './Welcome';
 
 
 
-ReactDOM.render(
-  <Welcome name="zyang"/>,
-  document.getElementById('root')
-)
+// ReactDOM.render(
+//   <Welcome name="zyang"/>,
+//   document.getElementById('root')
+// )
