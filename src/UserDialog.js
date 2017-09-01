@@ -19,8 +19,8 @@ export default class UserDialog extends Component{
       <div className="UserDialog-Wrapper">
       <div className="UserDialog">
         <nav>
-          <input onChange={this.switch.bind(this)} type="radio" value="signUp" checked={this.state.selected === 'signUp' }/> 注册
-          <input onChange={this.switch.bind(this)} type="radio" value="signIn" checked={this.state.selected === 'signIn' }/> 登录
+          <label><input onChange={this.switch.bind(this)} type="radio" value="signUp" checked={this.state.selected === 'signUp' }/> 注册</label>
+          <label><input onChange={this.switch.bind(this)} type="radio" value="signIn" checked={this.state.selected === 'signIn' }/> 登录</label>
         </nav>
         <div className="panes">
           <form className="signUp"> {/* 注册*/}
