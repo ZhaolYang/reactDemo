@@ -13,8 +13,7 @@ class App extends Component {
     this.state = {
       user: getCurrentUser() || {},
       newTodo: '',
-      todoList: [
-      ]
+      todoList: []
     }
   }
   render() {
